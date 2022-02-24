@@ -1,0 +1,29 @@
+{
+  "extraBabelPlugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ]
+  ],
+  "publicPath": "/",
+  "proxy": {
+    "/agw/api": {
+      "target": "https://tj.handydata.cn/agw/api",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "/agw/api": ""
+      }
+    },
+    "/agw/api/io/fdfs/1.0/upload": {
+      "target": "https://tj.handydata.cn/agw/api/io/fdfs/1.0/upload",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "/agw/api": ""
+      }
+    }
+  }
+}

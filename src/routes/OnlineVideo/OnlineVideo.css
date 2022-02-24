@@ -1,0 +1,56 @@
+
+.downloadStyle {
+  width: 63%;
+  text-align: center;
+  padding: 1% 1.5%;
+  border: 1px solid #1585ff;
+  border-radius: 3px;
+  background: #f5f5f5;
+  color: #1585ff;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.forbidDownloadStyle {
+  width: 63%;
+  text-align: center;
+  padding: 1% 1.5%;
+  border-radius: 3px;
+  background: #f5f5f5;
+  overflow: hidden;
+  line-height: 20px;
+  border: 1px solid #d9d9d9;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.bestow_styleLi {
+  width: 33%;
+  float: left;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.bestow_stylesLeft {
+  text-align: right;
+  float: left;
+  width: 37%;
+  padding: 1% 1.5%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+}
+
+.bestow_stylesRight {
+  text-align: left;
+  float: left;
+  width: 63%;
+  padding: 1% 1.5%;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background: #f5f5f5;
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+

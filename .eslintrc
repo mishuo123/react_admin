@@ -1,0 +1,6 @@
+{
+  "extends": "umi",
+  "rules": {
+    "no-restricted-globals": [0]
+  }
+}

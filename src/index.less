@@ -1,0 +1,87 @@
+
+html,
+body,
+:global(#root) {
+  height: 100%;
+}
+
+:global(.ant-layout) {
+  min-height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.globalSpin {
+  width: 100%;
+  margin: 40px 0 !important;
+}
+
+// temp fix for https://github.com/ant-design/ant-design/commit/a1fafb5b727b62cb0be29ce6e9eca8f579d4f8b7
+:global {
+
+  a:visited, a:hover ,a:active ,a:focus ,a:focus-within{
+    text-decoration: none !important;
+  }  
+  // ----------
+  .ant-form-item-control{
+    line-height: 15px;
+  }
+
+  .ant-spin-container {
+    overflow: visible !important;
+  }
+  .ant-table-pagination.ant-pagination {
+    float: left!important;
+  }
+  .ant-form-item{
+    margin-bottom: 10px!important;
+  }
+  .imgStyle:hover {
+    cursor: move;
+  }
+  .iconStyle:hover {
+    cursor: pointer;
+  }
+  .names:hover{
+    cursor: pointer;
+    background: #1890ff;
+  }
+  .simplePic{
+    width: 90%;
+    margin: 6% auto 0;
+    border: 2px solid #ddd;
+  }
+  .simplePic:hover{
+    border-color: #1890ff;
+    cursor: pointer;
+  }
+  .active{
+    border-color: #1890ff
+  }
+  div.cards:nth-child(3n){
+    margin-right: 0;
+  }
+  .ant-modal-body{
+    padding: 12
+  }
+  div.hoverDiv:hover{
+    border-color: #1890ff!important;
+    cursor: pointer!important;
+  }
+  .hoverDiv .ant-upload-text{
+    margin-bottom: 5px
+  }
+}
+
+
+
+
+
